@@ -10,7 +10,11 @@
 body {
     font-family: "Spartan", sans-serif;
     font-size: 15px;
-    margin: 0px;
 }
 
-container
+.container1 {
+    display: grid;
+    align-content: center;
+    margin: 15vh 10vh 10vh 10vh;
+    grid-template-columns: 1fr 0fr 1fr;
+}
